@@ -60,4 +60,11 @@ public class ClientData {
 		this.expense = expense;
 	}
 
+	@Override
+	public String toString() {
+		return "ClientData [id=" + id + ", name=" + name + ", income=" + income + ", expense=" + expense + "]";
+	}
+	
+	
+
 }

@@ -23,4 +23,11 @@ public class GetClientDataResponse {
 	public void setClientData(ClientData clientData) {
 		this.clientData = clientData;
 	}
+
+	@Override
+	public String toString() {
+		return "GetClientDataResponse [clientData=" + clientData + "]";
+	}
+	
+	
 }

@@ -31,7 +31,9 @@ public class LoanController {
 			@ApiResponse(responseCode = "400", description = "Validation error") })
 	public ResponseEntity<Void> loanData(@Valid @RequestBody(required = true) LoanApplicationRequest data)
 			throws JsonMappingException, JsonProcessingException {
-		LOGGER.info(data.toString());
-		return new ResponseEntity<Void>(HttpStatus.ACCEPTED);
+		LOGGER.info("Request data: {}", data);
+		ResponseEntity<Void> responseEntity = new ResponseEntity<Void>(HttpStatus.ACCEPTED);
+		LOGGER.info("Response data: {}", responseEntity);
+		return responseEntity;
 	}
 }
