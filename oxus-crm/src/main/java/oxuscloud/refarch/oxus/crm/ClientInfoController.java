@@ -32,10 +32,10 @@ public class ClientInfoController {
 	{
 		clientModel = new HashMap<>();
 		clientModel.put(1L, new ClientData(1L, "Frank Enstein", 100000, 10000));
-		clientModel.put(2L, new ClientData(2L, "Du Ven Blejt", 10000, 50000));
-		clientModel.put(3L, new ClientData(3L, "Piivoa Rumpiem", 32855, 7500));
-		clientModel.put(4L, new ClientData(4L, "Masako Namiru", 22100, 13000));
-		clientModel.put(5L, new ClientData(5L, "Burak Arasid", 50000, 10000));
+		clientModel.put(2L, new ClientData(2L, "Jennifer Henderson", 10000, 50000));
+		clientModel.put(3L, new ClientData(3L, "Ines Gonzales", 32855, 7500));
+		clientModel.put(4L, new ClientData(4L, "Bruce Mcdonald", 22100, 13000));
+		clientModel.put(5L, new ClientData(5L, "Amber Adams", 50000, 10000));
 	}
 	
 	public ClientInfoController() {
