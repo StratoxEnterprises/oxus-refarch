@@ -4,7 +4,7 @@
 mvn clean install docker:build
 
 ## Pull existing image
-docker pull oxuscloud/refarch-oxus-crm
+docker pull oxuscloud/refarch-oxus-crm -a
 
 ## Run on local
 docker run -p 8081:8080 -t oxuscloud/refarch-oxus-crm
